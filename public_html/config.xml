@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+         id          = "com.phonegap.example"
+         version     = "1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <preference name="phonegap-version" value="3.6.3" />
+    <!--<preference name="phonegap-version" value="2.9.0" />-->
+
+    <name>Chat Scoketio</name>
+
+    <description>
+        Test app for mobile socket io chat
+    </description>
+
+    <author href="http://yoursite.com" email="udubic@gmail.com">
+        Dubic Uzuegbu
+    </author>
+    
+    <!--<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />-->
+    <!--<gap:plugin name="com.ququplay.websocket.websocket" version="0.1.0" />-->
+    
+    <!--<icon src="icon.png" />-->
+    
+    <!--<gap:splash src="splash.png" />-->
+    
+    <preference name="exit-on-suspend" value="false" />
+    
+    <access origin="*" />
+
+
+<!--    <gap:splash src="splash/laflogo.png" gap:platform="android" width="320" height="480" />
+    <gap:splash src="splash/laflogo.png" gap:platform="ios" width="320" height="480" />-->
+    
+    
+
+</widget>
+
